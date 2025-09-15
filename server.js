@@ -1,5 +1,5 @@
 const express = require("express");
-const youtubedl = require("yt-dlp-exec");
+const youtubedl = require('youtube-dl-exec'); // instead of yt-dlp-exec
 const path = require("path");
 const fs = require("fs");
 
