@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download Video</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2><%= info.title %></h2>
+    <img src="<%= info.thumbnails[0].url %>" width="300">
+    <p>Channel: <%= info.author.name %></p>
+    <a href="/downloadVideo?url=<%= url %>">
+      <button>⬇️ Download</button>
+    </a>
+  </div>
+</body>
+</html>
